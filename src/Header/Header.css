@@ -1,0 +1,17 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: rgb(41, 38, 38);
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width:560px) {
+	.Header {
+        display: grid;
+        text-size-adjust: 10px;
+		justify-content:stretch;
+        padding: 0%;
+        background-color: rgb(41, 38, 38);
+	}
+}
